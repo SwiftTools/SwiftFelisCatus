@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F87E07231C8318AB0077F9F2 /* SwiftFelisCatus.h in Headers */ = {isa = PBXBuildFile; fileRef = F87E07221C8318AB0077F9F2 /* SwiftFelisCatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F87E072F1C8318AB0077F9F2 /* SwiftFelisCatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E072E1C8318AB0077F9F2 /* SwiftFelisCatusTests.swift */; };
+		F87E07421C8318BA0077F9F2 /* SourceKitDictionaryScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E073B1C8318BA0077F9F2 /* SourceKitDictionaryScanner.swift */; };
+		F87E074B1C8318DD0077F9F2 /* TestingSwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E07491C8318DD0077F9F2 /* TestingSwiftFile.swift */; };
+		F87E074D1C831B450077F9F2 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E074C1C831B450077F9F2 /* SourceKittenFramework.framework */; };
+		F87E07561C831BF60077F9F2 /* SourceKitFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E07551C831BF60077F9F2 /* SourceKitFileReader.swift */; };
+		F87E07581C831C760077F9F2 /* SourceKitFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E07571C831C760077F9F2 /* SourceKitFile.swift */; };
+		F87E075F1C831FBF0077F9F2 /* SourceKitAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E075A1C831FBF0077F9F2 /* SourceKitAccessibility.swift */; };
+		F87E07601C831FBF0077F9F2 /* SourceKitAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E075B1C831FBF0077F9F2 /* SourceKitAttribute.swift */; };
+		F87E07611C831FBF0077F9F2 /* SourceKitKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E075C1C831FBF0077F9F2 /* SourceKitKey.swift */; };
+		F87E07621C831FBF0077F9F2 /* SourceKitKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E075D1C831FBF0077F9F2 /* SourceKitKind.swift */; };
+		F87E07631C831FBF0077F9F2 /* SourceKitStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E075E1C831FBF0077F9F2 /* SourceKitStructure.swift */; };
+		F87E07651C8320E50077F9F2 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E07641C8320E50077F9F2 /* SWXMLHash.framework */; };
+		F87E07721C8324B40077F9F2 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E074E1C831B530077F9F2 /* Nimble.framework */; };
+		F87E07731C8324B90077F9F2 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87E074E1C831B530077F9F2 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F87E07741C8324C00077F9F2 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E074F1C831B530077F9F2 /* Quick.framework */; };
+		F87E07751C8324C90077F9F2 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87E074F1C831B530077F9F2 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F87E07761C8324CF0077F9F2 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E07641C8320E50077F9F2 /* SWXMLHash.framework */; };
+		F87E07771C8324D10077F9F2 /* SourceKittenFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E074C1C831B450077F9F2 /* SourceKittenFramework.framework */; };
+		F87E07791C8324D50077F9F2 /* SourceKittenFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87E074C1C831B450077F9F2 /* SourceKittenFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F87E077A1C8324DE0077F9F2 /* SwiftFelisCatus.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87E071F1C8318AB0077F9F2 /* SwiftFelisCatus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F87E077B1C8324E20077F9F2 /* SwiftFelisCatus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87E071F1C8318AB0077F9F2 /* SwiftFelisCatus.framework */; };
+		F87E077C1C8324F20077F9F2 /* SWXMLHash.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F87E07641C8320E50077F9F2 /* SWXMLHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87E072B1C8318AB0077F9F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87E07161C8318AB0077F9F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87E071E1C8318AB0077F9F2;
+			remoteInfo = SwiftFelisCatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F87E076F1C83248F0077F9F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F87E077A1C8324DE0077F9F2 /* SwiftFelisCatus.framework in CopyFiles */,
+				F87E07791C8324D50077F9F2 /* SourceKittenFramework.framework in CopyFiles */,
+				F87E07731C8324B90077F9F2 /* Nimble.framework in CopyFiles */,
+				F87E07751C8324C90077F9F2 /* Quick.framework in CopyFiles */,
+				F87E077C1C8324F20077F9F2 /* SWXMLHash.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F87E071F1C8318AB0077F9F2 /* SwiftFelisCatus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFelisCatus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87E07221C8318AB0077F9F2 /* SwiftFelisCatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFelisCatus.h; sourceTree = "<group>"; };
+		F87E07241C8318AB0077F9F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87E07291C8318AB0077F9F2 /* SwiftFelisCatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFelisCatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87E072E1C8318AB0077F9F2 /* SwiftFelisCatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFelisCatusTests.swift; sourceTree = "<group>"; };
+		F87E07301C8318AB0077F9F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87E073B1C8318BA0077F9F2 /* SourceKitDictionaryScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitDictionaryScanner.swift; sourceTree = "<group>"; };
+		F87E07491C8318DD0077F9F2 /* TestingSwiftFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingSwiftFile.swift; sourceTree = "<group>"; };
+		F87E074C1C831B450077F9F2 /* SourceKittenFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SourceKittenFramework.framework; path = Carthage/Build/Mac/SourceKittenFramework.framework; sourceTree = "<group>"; };
+		F87E074E1C831B530077F9F2 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = "<group>"; };
+		F87E074F1C831B530077F9F2 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = "<group>"; };
+		F87E07551C831BF60077F9F2 /* SourceKitFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitFileReader.swift; sourceTree = "<group>"; };
+		F87E07571C831C760077F9F2 /* SourceKitFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitFile.swift; sourceTree = "<group>"; };
+		F87E075A1C831FBF0077F9F2 /* SourceKitAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitAccessibility.swift; sourceTree = "<group>"; };
+		F87E075B1C831FBF0077F9F2 /* SourceKitAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitAttribute.swift; sourceTree = "<group>"; };
+		F87E075C1C831FBF0077F9F2 /* SourceKitKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitKey.swift; sourceTree = "<group>"; };
+		F87E075D1C831FBF0077F9F2 /* SourceKitKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitKind.swift; sourceTree = "<group>"; };
+		F87E075E1C831FBF0077F9F2 /* SourceKitStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceKitStructure.swift; sourceTree = "<group>"; };
+		F87E07641C8320E50077F9F2 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/Mac/SWXMLHash.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87E071B1C8318AB0077F9F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87E074D1C831B450077F9F2 /* SourceKittenFramework.framework in Frameworks */,
+				F87E07651C8320E50077F9F2 /* SWXMLHash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87E07261C8318AB0077F9F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87E077B1C8324E20077F9F2 /* SwiftFelisCatus.framework in Frameworks */,
+				F87E07771C8324D10077F9F2 /* SourceKittenFramework.framework in Frameworks */,
+				F87E07721C8324B40077F9F2 /* Nimble.framework in Frameworks */,
+				F87E07741C8324C00077F9F2 /* Quick.framework in Frameworks */,
+				F87E07761C8324CF0077F9F2 /* SWXMLHash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87E07151C8318AB0077F9F2 = {
+			isa = PBXGroup;
+			children = (
+				F87E07521C831B670077F9F2 /* Carthage */,
+				F87E07211C8318AB0077F9F2 /* SwiftFelisCatus */,
+				F87E072D1C8318AB0077F9F2 /* SwiftFelisCatusTests */,
+				F87E07201C8318AB0077F9F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87E07201C8318AB0077F9F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87E071F1C8318AB0077F9F2 /* SwiftFelisCatus.framework */,
+				F87E07291C8318AB0077F9F2 /* SwiftFelisCatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87E07211C8318AB0077F9F2 /* SwiftFelisCatus */ = {
+			isa = PBXGroup;
+			children = (
+				F87E07391C8318BA0077F9F2 /* Source */,
+				F87E07221C8318AB0077F9F2 /* SwiftFelisCatus.h */,
+				F87E07241C8318AB0077F9F2 /* Info.plist */,
+			);
+			path = SwiftFelisCatus;
+			sourceTree = "<group>";
+		};
+		F87E072D1C8318AB0077F9F2 /* SwiftFelisCatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				F87E072E1C8318AB0077F9F2 /* SwiftFelisCatusTests.swift */,
+				F87E07491C8318DD0077F9F2 /* TestingSwiftFile.swift */,
+				F87E07301C8318AB0077F9F2 /* Info.plist */,
+			);
+			path = SwiftFelisCatusTests;
+			sourceTree = "<group>";
+		};
+		F87E07391C8318BA0077F9F2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F87E073A1C8318BA0077F9F2 /* SourceKit */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F87E073A1C8318BA0077F9F2 /* SourceKit */ = {
+			isa = PBXGroup;
+			children = (
+				F87E07591C831FBF0077F9F2 /* Structure */,
+				F87E07551C831BF60077F9F2 /* SourceKitFileReader.swift */,
+				F87E073B1C8318BA0077F9F2 /* SourceKitDictionaryScanner.swift */,
+				F87E07571C831C760077F9F2 /* SourceKitFile.swift */,
+			);
+			path = SourceKit;
+			sourceTree = "<group>";
+		};
+		F87E07521C831B670077F9F2 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				F87E07531C831B710077F9F2 /* Build */,
+			);
+			name = Carthage;
+			sourceTree = "<group>";
+		};
+		F87E07531C831B710077F9F2 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				F87E07541C831B750077F9F2 /* Mac */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		F87E07541C831B750077F9F2 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F87E07641C8320E50077F9F2 /* SWXMLHash.framework */,
+				F87E074E1C831B530077F9F2 /* Nimble.framework */,
+				F87E074F1C831B530077F9F2 /* Quick.framework */,
+				F87E074C1C831B450077F9F2 /* SourceKittenFramework.framework */,
+			);
+			name = Mac;
+			sourceTree = "<group>";
+		};
+		F87E07591C831FBF0077F9F2 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				F87E075A1C831FBF0077F9F2 /* SourceKitAccessibility.swift */,
+				F87E075B1C831FBF0077F9F2 /* SourceKitAttribute.swift */,
+				F87E075C1C831FBF0077F9F2 /* SourceKitKey.swift */,
+				F87E075D1C831FBF0077F9F2 /* SourceKitKind.swift */,
+				F87E075E1C831FBF0077F9F2 /* SourceKitStructure.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F87E071C1C8318AB0077F9F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87E07231C8318AB0077F9F2 /* SwiftFelisCatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F87E071E1C8318AB0077F9F2 /* SwiftFelisCatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87E07331C8318AB0077F9F2 /* Build configuration list for PBXNativeTarget "SwiftFelisCatus" */;
+			buildPhases = (
+				F87E071A1C8318AB0077F9F2 /* Sources */,
+				F87E071B1C8318AB0077F9F2 /* Frameworks */,
+				F87E071C1C8318AB0077F9F2 /* Headers */,
+				F87E071D1C8318AB0077F9F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFelisCatus;
+			productName = SwiftFelisCatus;
+			productReference = F87E071F1C8318AB0077F9F2 /* SwiftFelisCatus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F87E07281C8318AB0077F9F2 /* SwiftFelisCatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87E07361C8318AB0077F9F2 /* Build configuration list for PBXNativeTarget "SwiftFelisCatusTests" */;
+			buildPhases = (
+				F87E07251C8318AB0077F9F2 /* Sources */,
+				F87E07261C8318AB0077F9F2 /* Frameworks */,
+				F87E07271C8318AB0077F9F2 /* Resources */,
+				F87E076F1C83248F0077F9F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87E072C1C8318AB0077F9F2 /* PBXTargetDependency */,
+			);
+			name = SwiftFelisCatusTests;
+			productName = SwiftFelisCatusTests;
+			productReference = F87E07291C8318AB0077F9F2 /* SwiftFelisCatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87E07161C8318AB0077F9F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Artyom Y. Razinov";
+				TargetAttributes = {
+					F87E071E1C8318AB0077F9F2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F87E07281C8318AB0077F9F2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F87E07191C8318AB0077F9F2 /* Build configuration list for PBXProject "SwiftFelisCatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F87E07151C8318AB0077F9F2;
+			productRefGroup = F87E07201C8318AB0077F9F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87E071E1C8318AB0077F9F2 /* SwiftFelisCatus */,
+				F87E07281C8318AB0077F9F2 /* SwiftFelisCatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87E071D1C8318AB0077F9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87E07271C8318AB0077F9F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87E071A1C8318AB0077F9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87E07601C831FBF0077F9F2 /* SourceKitAttribute.swift in Sources */,
+				F87E075F1C831FBF0077F9F2 /* SourceKitAccessibility.swift in Sources */,
+				F87E07561C831BF60077F9F2 /* SourceKitFileReader.swift in Sources */,
+				F87E07621C831FBF0077F9F2 /* SourceKitKind.swift in Sources */,
+				F87E07611C831FBF0077F9F2 /* SourceKitKey.swift in Sources */,
+				F87E07631C831FBF0077F9F2 /* SourceKitStructure.swift in Sources */,
+				F87E07421C8318BA0077F9F2 /* SourceKitDictionaryScanner.swift in Sources */,
+				F87E07581C831C760077F9F2 /* SourceKitFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87E07251C8318AB0077F9F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87E074B1C8318DD0077F9F2 /* TestingSwiftFile.swift in Sources */,
+				F87E072F1C8318AB0077F9F2 /* SwiftFelisCatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87E072C1C8318AB0077F9F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87E071E1C8318AB0077F9F2 /* SwiftFelisCatus */;
+			targetProxy = F87E072B1C8318AB0077F9F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F87E07311C8318AB0077F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F87E07321C8318AB0077F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F87E07341C8318AB0077F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftFelisCatus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwiftFelisCatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F87E07351C8318AB0077F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftFelisCatus/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwiftFelisCatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F87E07371C8318AB0077F9F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = SwiftFelisCatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwiftFelisCatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F87E07381C8318AB0077F9F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = SwiftFelisCatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razinov.SwiftFelisCatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87E07191C8318AB0077F9F2 /* Build configuration list for PBXProject "SwiftFelisCatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87E07311C8318AB0077F9F2 /* Debug */,
+				F87E07321C8318AB0077F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87E07331C8318AB0077F9F2 /* Build configuration list for PBXNativeTarget "SwiftFelisCatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87E07341C8318AB0077F9F2 /* Debug */,
+				F87E07351C8318AB0077F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F87E07361C8318AB0077F9F2 /* Build configuration list for PBXNativeTarget "SwiftFelisCatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87E07371C8318AB0077F9F2 /* Debug */,
+				F87E07381C8318AB0077F9F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87E07161C8318AB0077F9F2 /* Project object */;
+}
