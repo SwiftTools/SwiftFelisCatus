@@ -10,4 +10,6 @@ public enum SourceKitAttribute: String {
     case inline = "source.decl.attribute.inline"
     case mutating = "source.decl.attribute.mutating"
     case required = "source.decl.attribute.required"
+    case autoclosure = "source.decl.attribute.autoclosure"
+    case noescape = "source.decl.attribute.noescape"
 }

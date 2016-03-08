@@ -39,5 +39,8 @@ public enum SourceKitKind: String {
     case decl_var_local = "source.lang.swift.decl.var.local"
     case decl_var_parameter = "source.lang.swift.decl.var.parameter"
     case decl_var_static = "source.lang.swift.decl.var.static"
+    case expr_array = "source.lang.swift.expr.array"
+    case expr_call = "source.lang.swift.expr.call"
     case structure_elem_expr = "source.lang.swift.structure.elem.expr"
+    case structure_elem_typeref = "source.lang.swift.structure.elem.typeref"
 }

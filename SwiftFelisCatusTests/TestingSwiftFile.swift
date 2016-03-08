@@ -16,7 +16,7 @@ private protocol TestProtocolTypealias {
     typealias T
 }
 
-internal class TestClass {
+internal class TestClass: TestSwiftFile, TestProtocol {
     static let staticLetStringTypeInference = "string"
     
     static let staticLetArrayString: [String] = ["string", "string"]
@@ -42,4 +42,6 @@ internal class TestClass {
         return "string"
     }
     
+    var getSetString: String = "string"
+    var getArrayString: [String] = ["string"].map { $0 + "_appended" }
 }

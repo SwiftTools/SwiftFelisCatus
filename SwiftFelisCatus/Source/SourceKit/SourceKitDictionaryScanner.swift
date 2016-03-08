@@ -20,22 +20,21 @@ class SourceKitDictionaryScanner {
         return SourceKitStructure(
             accessibility: self[SourceKitKey.accessibility],
             annotated_decl: self[SourceKitKey.annotated_decl],
-            attribute: self[SourceKitKey.attribute], // not supported
-            attributes: self[SourceKitKey.attributes], // not supported
+            attributes: self[SourceKitKey.attributes],
             bodylength: self[SourceKitKey.bodylength],
             bodyoffset: self[SourceKitKey.bodyoffset],
             diagnostic_stage: self[SourceKitKey.diagnostic_stage],
-            elements: self[SourceKitKey.elements], // not supported
+            elements: self[SourceKitKey.elements],
             filepath: self[SourceKitKey.filepath],
             full_as_xml: self[SourceKitKey.full_as_xml],
-            inheritedtypes: self[SourceKitKey.inheritedtypes], // not supported
+            inheritedtypes: self[SourceKitKey.inheritedtypes],
             kind: self[SourceKitKey.kind],
             length: self[SourceKitKey.length],
             name: self[SourceKitKey.name],
             namelength: self[SourceKitKey.namelength],
             nameoffset: self[SourceKitKey.nameoffset],
             offset: self [SourceKitKey.offset],
-            runtime_name: self[SourceKitKey.runtime_name], // not supported
+            runtime_name: self[SourceKitKey.runtime_name],
             setter_accessibility: self[SourceKitKey.setter_accessibility],
             substructure: self[SourceKitKey.substructure] ?? [],
             syntaxmap: self[SourceKitKey.syntaxmap],
@@ -71,6 +70,23 @@ class SourceKitDictionaryScanner {
     
     subscript (key: SourceKitKey) -> NSData? {
         return dictionary[key.rawValue] as? NSData
+    }
+    
+    subscript (key: SourceKitKey) -> [SourceKitAttribute] {
+        var attributes = [SourceKitAttribute]()
+        
+        if let rawAttributes = dictionary[key.rawValue] as? [SourceKitRepresentable] {
+            for rawAttribute in rawAttributes {
+                if let rawAttribute = rawAttribute as? [String: SourceKitRepresentable],
+                    attributeName = rawAttribute[SourceKitKey.attribute.rawValue] as? String,
+                    attribute = SourceKitAttribute(rawValue: attributeName)
+                {
+                    attributes.append(attribute)
+                }
+            }
+        }
+        
+        return attributes
     }
     
     subscript (key: SourceKitKey) -> [SourceKitStructure] {
